@@ -1,0 +1,36 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 2rem;
+}
+
+.cabecalhoNavegacao-menu {
+    display: flex;
+}
+
+.cabecalhoNavegacao-item {
+    list-style: none;
+}
+
+.cabecalhoNavegacao-link {
+    color: #808080;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-right: 1.25rem;
+}
+
+.cabecalhoNavegacao-link:hover {
+    text-decoration: underline;
+}
+
+.cabecalhoNavegacao-item:last-child .cabecalhoNavegacao-link{
+    margin-right: 0;
+}
+
+.cabecalhoNavegacao-link.ativo {
+    color: #333333;
+    font-weight: bold;
+}

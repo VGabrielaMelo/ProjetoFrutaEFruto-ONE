@@ -1,0 +1,160 @@
+/* Banner */
+.banner {
+    position: relative;
+}
+
+.bannerImagem {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+}
+
+.bannerTitulo {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    color: #FDFDFD;
+    text-align: center;
+    font-family: Pacifico, cursive;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+}
+
+/* Sobre */
+.sobre {
+    background-color: #F9F9F9;
+    text-align: center;
+}
+
+.sobreTitulo {
+    color: #8D0606;
+    font-family: Pacifico, cursive;
+}
+
+.sobreDescricao {
+    color: #595959;
+    font-weight: 100;
+}
+
+/* Receitas */
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #E5E5E5;
+}
+
+.receita {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+
+    background-color: #FDFDFD;
+}
+
+.receitaImagem {
+    height: 200px;
+}
+
+.receitaConteudo {
+    padding: 1rem;
+}
+
+.receitaTitulo {
+    font-size: 1.44rem;
+}
+
+.receitaDescricao {
+    font-size: 1.20rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.receitaBotao {
+    background-color: #8D0606;
+    color: #F9F9F9;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+.receitaBotao:hover { 
+    background-color: #620404;
+    cursor: pointer;
+}
+
+/* Quem Somos */
+.quem-somos {
+    text-align: center;
+    padding: 5rem;
+}
+
+.quem-somosTitulo {
+    font-family: Pacifico, cursive;
+    font-size: 3.20rem;
+    color: #8D0606;
+
+}
+
+.quem-somosDescricao {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
+
+/* Quem Somos - Pessoas */
+
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoaImagem {
+    background: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.pessoaImagem-roberta {
+    background-image: url('../img/pessoas/roberta.jpg');
+}
+
+.pessoaImagem-marcela {
+    background-image: url('../img/pessoas/marcela.jpg');
+}
+
+.pessoaImagem-andreia {
+    background-image: url('../img/pessoas/andreia.jpg');
+}
+
+.pessoaNome {
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    color: #8D0606;
+    margin: 1rem 0;
+}
+
+.pessoaFuncao {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: #595959;
+}
